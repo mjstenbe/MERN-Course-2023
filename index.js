@@ -29,4 +29,4 @@ http
 
     response.end(); //HTTP vastaus päättyy
   })
-  .listen(PORT); // palvelin kuuntelee porttia 8081
+  .listen(port); // palvelin kuuntelee porttia 8081
