@@ -29,4 +29,4 @@ http
 
     response.end(); //HTTP vastaus päättyy
   })
-  .listen(port); // palvelin kuuntelee porttia 8081
+  .listen(port); // palvelin kuuntelee joko pilvipalvelun porttia tai paikallista porttia nro 3000
