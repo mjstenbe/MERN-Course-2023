@@ -10,7 +10,7 @@ http
       response.writeHead(200, { "Content-Type": "text/plain" });
 
       // Lähetetään tekstimuotoinen vastaus selaimelle
-      response.write("Olet saapunut palvelimen juureen - TAAS!");
+      response.write("Olet saapunut palvelimen juureen - TAAS! Kuunnellaan porttia "+ port);
     } else if (request.url === "/helloworld") {
       // Valitaan Content-type tarjoiltavan sisällön suhteen
       response.writeHead(200, { "Content-Type": "text/html" });
